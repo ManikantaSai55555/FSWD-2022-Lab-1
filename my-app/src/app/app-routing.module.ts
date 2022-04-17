@@ -7,8 +7,8 @@ import { MovingCarComponent } from './moving-car/moving-car.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
-  {path:'MovingCar', component:MovingCarComponent },
   {path:'', component:MovingCarComponent },
+  {path:'MovingCar', component:MovingCarComponent },
   {path:'home',component:HomeComponent},
   {path:'about', component:AboutComponent},
   {path:'contact', component:ContactComponent}
